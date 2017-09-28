@@ -8,10 +8,10 @@ body {
 }
 
 /* Centered text */
-  .broadway {
-    background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
-    text-align: center;
-    color: white;
+.broadway {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  text-align: center;
+  color: white;
 }
 
 .broadway h1 {
@@ -35,11 +35,17 @@ h1, h2, h3 {
   font-size: 32px;
 }
 
-
 .process h3 {
   font-size: 23px;
 }
 
 p {
   font-size: 14px;
+}
+
+.copyright {
+  text-align: left;
+  background-color: dimgray;
+  font-size: 11px;
+  color: white;
 }
