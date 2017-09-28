@@ -1,8 +1,27 @@
-h1 {
-  font-family: Helvetica;
-  font-size: 70px;
-  font-weight: bold;
-  color: white;
+body {
+  font-family: helvetica;
 }
 
-img 
+/* Container holding the image and the text */
+.building {
+    position: relative;
+}
+
+/* Centered text */
+  .broadway {
+    left: 0;
+     position: absolute;
+     text-align: center;
+     top: 0px;
+     width: 100%;
+     color: white;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+.nav {
+  font-size: 18px;
+  color: black;
+}
